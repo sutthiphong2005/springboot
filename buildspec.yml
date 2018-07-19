@@ -3,8 +3,8 @@ version: 0.2
 phases:
   install:
     commands:
-      - java -version
-      - mvn -version
+      - echo install maven
+      - apt-get update -y
       - apt-get install -y maven
   pre_build:
     commands:
