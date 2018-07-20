@@ -1,12 +1,6 @@
 version: 0.2
 
 phases:
-  install:
-    commands:
-      - echo install maven
-      - apt-get update -y
-      - apt-get install -y maven
-      - java -version
   pre_build:
     commands:
       - echo Logging in to Amazon ECR...
